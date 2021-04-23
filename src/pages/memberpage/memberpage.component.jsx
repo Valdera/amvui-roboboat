@@ -2,7 +2,7 @@ import { Route, Switch } from 'react-router-dom';
 import Navbar from './components/navbar/navbar.component';
 import React from 'react';
 import HomePage from './pages/homepage/homepage.component';
-import './App.scss';
+import './App.css';
 
 const App = () => {
   return (

@@ -1,0 +1,54 @@
+@import '../../sass/main.scss';
+
+.header {
+  height: 90vh;
+  display: grid;
+  padding-top: 9rem;
+
+  grid-gap: 10rem;
+  grid-template-columns: 0.7fr 1fr;
+
+  &__left {
+    & > * {
+      margin-bottom: 3rem;
+    }
+    & > h1 {
+      line-height: 1.1;
+      font-size: 5.8rem;
+      font-weight: 700;
+      color: $color-secondary;
+      font-family: $font-display;
+    }
+
+    & > p {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__right {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: top;
+  }
+
+  &__bubble {
+    position: absolute;
+    z-index: 2;
+
+    &--1 {
+      top: -2rem;
+      left: 0;
+    }
+
+    &--2 {
+      bottom: 22rem;
+      left: 8rem;
+    }
+
+    &--3 {
+      top: 12rem;
+      right: 3rem;
+    }
+  }
+}

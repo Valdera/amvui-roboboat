@@ -1,0 +1,23 @@
+@import '../../sass/main.scss';
+
+.homepage {
+  width: 100%;
+  margin-top: 6vh;
+  position: relative;
+  padding: 0 10rem;
+  overflow-x: hidden;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+    & > * {
+      width: 100%;
+      @include respond(phone) {
+        width: 150%;
+      }
+    }
+  }
+}

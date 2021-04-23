@@ -1,0 +1,54 @@
+@import '../../sass/main.scss';
+
+.navbar {
+  background-color: $color-primary;
+  display: grid;
+  grid-template-columns: 1fr repeat(4, max-content);
+  font-family: $font-primary;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 6vh;
+  padding: 0 10rem;
+  align-items: center;
+  z-index: 100;
+  transition: all 0.3s;
+
+  & > a {
+    font-family: inherit;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: $color-black;
+    transition: all 0.3s;
+
+    &:not(:last-child) {
+      padding-right: 6rem;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+
+  &__logo {
+    margin-right: auto;
+    & > * {
+      margin-top: 0.4rem;
+      height: 3rem;
+    }
+  }
+}
+
+.navbar.active {
+  background-color: $color-grey-light-1;
+  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
+
+  & > a:hover {
+    transform: scale(1.1);
+    color: $color-primary;
+  }
+}

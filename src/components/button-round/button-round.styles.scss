@@ -1,0 +1,16 @@
+@import '../../sass/main.scss';
+
+.button-round {
+  cursor: pointer;
+  padding: 1.2rem 3rem;
+  background-color: $color-grey-dark-2;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  color: $color-white;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
