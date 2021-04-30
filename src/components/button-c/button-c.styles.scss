@@ -2,16 +2,21 @@
 
 .button-c {
   cursor: pointer;
-  padding: 1.2rem 4rem;
+  padding: 1.2rem 5rem;
   background-color: $color-white;
   border: none;
+  font-family: $font-primary;
   border-radius: 20px;
+
   font-size: 1.7rem;
   color: $color-grey-dark-2;
   transition: all 0.3s ease-out;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     color: $color-primary;
+  }
+  &:active {
+    transform: scale(0.98);
   }
 }
