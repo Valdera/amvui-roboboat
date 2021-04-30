@@ -1,0 +1,117 @@
+@import '../../sass/main.scss';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+.membercard{
+    position: relative;
+    font-family: 'Raleway';
+
+    & > img{
+        float: left;
+        overflow: hidden;
+        left: 0px;
+        top: 0px;
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+    }
+
+    &_role {
+        float: left;
+        overflow: hidden;
+        position: absolute;
+        top: 10rem;
+        background-color: #240558;
+        color: $color-primary;
+        left: 0rem;
+        width: 16rem;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    &_container {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        overflow: hidden;
+        float: left;
+        width: fit-content;
+
+        &_major {
+            font-size: 12px;
+        }
+
+        &_square {
+            background-color: $color-primary;
+        }
+
+        &_linkedin {
+            font-size: 3rem;
+            float: left;
+            margin-left: 4rem;
+            color: white;
+            background-color: $color-primary;
+            width: fit-content;
+            height: fit-content;
+            border-radius: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            position: absolute;
+            top: 8.5rem;
+            box-shadow: 2px 2px 5px 0.5px #ada4a4;
+        }
+
+        &_linkedin:hover {
+            cursor: pointer;
+        }
+
+        &_instagram:hover {
+            cursor: pointer;
+        }
+
+        &_instagram {
+            font-size: 3rem;
+            margin-left: 11rem;
+            color: white;
+            background-color: $color-primary;
+            width: fit-content;
+            height: fit-content;
+            border-radius: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            position: absolute;
+            top: 8.5rem;
+            box-shadow: 2px 2px 5px 0.5px #ada4a4;
+        }
+    }
+}
+
+.name_container {
+    &_name {
+        font-size: 24px;
+        color: #240558;
+        align-items: center;
+        text-align: center;
+        margin-left: 1rem;
+        font-weight: bold;
+    }
+
+    &_square {
+        position: absolute;
+        top: 4.2rem;
+        width: 15.2rem;
+        height: 1.5rem;
+        background-color: $color-primary;
+        z-index: -1;
+    }
+}
