@@ -4,7 +4,6 @@
   width: 100%;
   margin-top: 6vh;
   position: relative;
-  padding: 0 10rem;
   overflow-x: hidden;
 
   &__background {
@@ -19,5 +18,25 @@
         width: 150%;
       }
     }
+  }
+
+  &__header {
+    padding: 0 10rem;
+    margin-bottom: 5rem;
+  }
+
+  &__roboboat-video {
+    padding: 0 10rem;
+    margin-bottom: 8rem;
+  }
+
+  &__see-achievement {
+    padding: 0 10rem;
+    margin-bottom: 5rem;
+  }
+
+  &__see-member {
+    padding: 0 10rem;
+    margin-bottom: 5rem;
   }
 }

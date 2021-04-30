@@ -1,0 +1,17 @@
+@import '../../sass/main.scss';
+
+.button-c {
+  cursor: pointer;
+  padding: 1.2rem 4rem;
+  background-color: $color-white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.7rem;
+  color: $color-grey-dark-2;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    transform: scale(1.05);
+    color: $color-primary;
+  }
+}

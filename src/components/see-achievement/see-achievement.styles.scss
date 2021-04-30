@@ -1,0 +1,22 @@
+@import '../../sass/main.scss';
+
+.see-achievement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    margin-right: 15rem;
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+      color: $color-secondary;
+    }
+
+    ul {
+      font-size: 1.6rem;
+      list-style-position: inside;
+      margin-bottom: 3rem;
+    }
+  }
+}

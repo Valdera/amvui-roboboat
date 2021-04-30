@@ -5,8 +5,12 @@
   flex-direction: column;
   align-items: center;
 
+  &__youtube {
+    margin-top: 1.2rem;
+  }
+
   & > * {
-    margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
   }
 
   & > h1 {
@@ -17,6 +21,7 @@
   }
 
   & > p {
+    width: 90rem;
     font-size: 1.7rem;
     text-align: center;
   }
