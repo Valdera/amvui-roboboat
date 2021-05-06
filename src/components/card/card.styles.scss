@@ -1,19 +1,84 @@
 @import '../../sass/main.scss';
 
 .card {
-  height: 45rem;
+  width: 27rem;
+  padding-bottom: 2rem;
   border-radius: 20px;
   background: $color-white;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  position: relative;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   &__picture {
     background-size: cover;
-    height: 23rem;
+    height: 20rem;
     background-blend-mode: screen;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     overflow: hidden;
+    z-index: 1;
+
+    & > img {
+      height: 100%;
+    }
+  }
+
+  &__heading {
+    font-family: $font-display;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: $color-white;
+    position: absolute;
+    top: 17rem;
+    right: 1rem;
+    width: 75%;
+  }
+
+  &__heading-span {
+    padding: 0.75rem 1rem;
+    overflow: hidden;
+    border: none;
+    backface-visibility: hidden;
+    background-image: linear-gradient(
+      to right bottom,
+      $color-primary,
+      $color-orange
+    );
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+
+      li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        color: $color-grey-dark-1;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-grey-light-2;
+        }
+      }
+    }
+  }
+
+  &__button {
+    margin-top: 2rem;
   }
 }

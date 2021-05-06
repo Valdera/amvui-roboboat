@@ -1,0 +1,32 @@
+@import '../../sass/main.scss';
+
+.product-list {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  & > h1 {
+    position: relative;
+    font-size: 3.5rem;
+    color: $color-secondary;
+  }
+  &--line {
+    width: 30rem;
+    height: 1.5rem;
+    background-color: $color-primary;
+    position: absolute;
+    bottom: 1rem;
+    z-index: -1;
+    left: -1rem;
+  }
+
+  &__item {
+    margin-top: 5rem;
+    display: grid;
+    grid-column-gap: 5rem;
+
+    grid-row-gap: 5rem;
+    grid-template-columns: max-content max-content max-content;
+  }
+}

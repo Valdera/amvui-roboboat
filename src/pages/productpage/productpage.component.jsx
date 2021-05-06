@@ -1,6 +1,6 @@
 import React from 'react';
 import background from '../../assets/background-product.svg';
-import Card from '../../components/card/card.component';
+import ProductList from '../../components/product-list/product-list.component';
 import ProductSelect from '../../components/product-select/product-select.component';
 import './productpage.styles.scss';
 
@@ -15,18 +15,9 @@ const ProductPage = () => {
       </div>
 
       <div className="productpage__list">
-        <div className="product-list">
-          <h1>
-            Remotely Operated Vehicle (ROV)
-            <div className="product-list--line" />
-          </h1>
-
-          <div className="product-list__display">
-            <div className="product-item">
-              <Card />
-            </div>
-          </div>
-        </div>
+        <ProductList />
+        <ProductList />
+        <ProductList />
       </div>
     </div>
   );

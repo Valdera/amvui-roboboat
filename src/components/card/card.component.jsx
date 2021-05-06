@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/ship-bubble.jpg';
+import logo from '../../assets/ship-1-product.jpg';
 import { withRouter } from 'react-router-dom';
 import ButtonPulsate from '../button-pulsate/button-pulsate.component';
 
@@ -17,10 +17,11 @@ const Card = () => {
       <div className="card__details">
         <ul>
           <li>2019</li>
-          <li>3 Awards</li>
           <li>Underwater ROV</li>
         </ul>
-        <ButtonPulsate>Ikuti ujian</ButtonPulsate>
+        <div className="card__button">
+          <ButtonPulsate>More Details</ButtonPulsate>
+        </div>
       </div>
     </div>
   );
