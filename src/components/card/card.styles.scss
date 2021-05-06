@@ -1,0 +1,19 @@
+@import '../../sass/main.scss';
+
+.card {
+  height: 45rem;
+  border-radius: 20px;
+  background: $color-white;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+  &__picture {
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    overflow: hidden;
+  }
+}

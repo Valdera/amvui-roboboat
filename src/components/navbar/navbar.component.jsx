@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './navbar.styles.scss';
 import { ReactComponent as Logo } from '../../assets/amv-logo.svg';
+import { withRouter } from 'react-router-dom';
 
 class Navbar extends Component {
   constructor(props) {
@@ -28,17 +29,17 @@ class Navbar extends Component {
 
   render() {
     return (
-      <div className={`navbar ${this.state.navbar ? 'active' : ''}`}>
+      <div className={`navbar ${this.state.navbar ? 'active' : ''} `}>
         <div className="navbar__logo">
           <Logo />
         </div>
         <a href="/">Contacts</a>
         <a href="/shop">Member</a>
-        <a href="/">Robots</a>
+        <a href="/products">Robots</a>
         <a href="/">Achievements</a>
       </div>
     );
   }
 }
 
-export default Navbar;
+export default withRouter(Navbar);

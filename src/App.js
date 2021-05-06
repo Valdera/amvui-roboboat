@@ -9,7 +9,6 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/products" component={ProductPage} />

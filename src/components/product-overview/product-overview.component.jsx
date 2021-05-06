@@ -6,7 +6,12 @@ import './product-overview.styles.scss';
 const ProductOverview = () => {
   return (
     <div className="product-overview">
-      <h1>Our Products</h1>
+      <div className="product-overview__title">
+        <div />
+        <h1>Our Products</h1>
+        <div />
+      </div>
+
       <div className="product-overview__carousel">
         <Carousel />
       </div>
