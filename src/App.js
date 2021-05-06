@@ -4,6 +4,7 @@ import React from 'react';
 import HomePage from './pages/homepage/homepage.component';
 import './App.scss';
 import ProductPage from './pages/productpage/productpage.component';
+import MemberPage from './pages/memberpage/memberpage.component';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/products" component={ProductPage} />
+        <Route exact path="/member" component={MemberPage} />
       </Switch>
     </div>
   );

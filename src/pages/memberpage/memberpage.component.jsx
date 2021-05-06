@@ -1,19 +1,24 @@
-import { Route, Switch } from 'react-router-dom';
-import Navbar from './components/navbar/navbar.component';
 import React from 'react';
-import HomePage from './pages/homepage/homepage.component';
-import './App.css';
+import background from '../../assets/background-product.svg';
+import MemberSelect from '../../components/member-select/member-select.component';
 
-const App = () => {
+import './memberpage.styles.scss';
+
+const MemberPage = () => {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="memberpage">
+      <div className="memberpage__select">
+        <div className="memberpage__background">
+          <img src={background} alt="background member" />
+        </div>
+        <MemberSelect />
+      </div>
 
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-      </Switch>
+      <div className="memberpage__list">
+        <div className="memberpage__item"></div>
+      </div>
     </div>
   );
 };
 
-export default App;
+export default MemberPage;

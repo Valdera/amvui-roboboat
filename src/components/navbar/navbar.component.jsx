@@ -34,7 +34,7 @@ class Navbar extends Component {
           <Logo />
         </div>
         <a href="/">Contacts</a>
-        <a href="/shop">Member</a>
+        <a href="/member">Member</a>
         <a href="/products">Robots</a>
         <a href="/">Achievements</a>
       </div>
