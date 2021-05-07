@@ -1,10 +1,6 @@
 import React from 'react';
-import ButtonRound from '../../components/button-round/button-round.component';
-import ship1 from '../../assets/ship-1-bubble.jpg';
-import { ReactComponent as PaperSVG } from '../../assets/paper-header.svg';
 import Amvlogo from '../../assets/logofix.png';
 import './footer.styles.scss';
-import Bubble from '../bubble/bubble.component';
 import SocialMediaButtons from '../social-media-buttons/social-media-buttons';
 
 const Footer = () => {

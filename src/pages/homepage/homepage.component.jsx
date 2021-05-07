@@ -7,6 +7,7 @@ import SeeAchievement from '../../components/see-achievement/see-achievement.com
 import SeeMember from '../../components/see-member/see-member.component';
 import ProductOverview from '../../components/product-overview/product-overview.component';
 import Footer from '../../components/footer/footer.component';
+import Sponsor from '../../components/sponsor/sponsor.component';
 
 const Homepage = () => {
   return (
@@ -28,6 +29,10 @@ const Homepage = () => {
       </div>
       <div className="homepage__product-overview">
         <ProductOverview />
+      </div>
+
+      <div className="homepage__sponsor">
+        <Sponsor />
       </div>
 
       <div className="homepage__footer">
