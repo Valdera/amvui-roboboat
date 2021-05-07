@@ -6,21 +6,21 @@
     flex-direction: row;
     align-items: center;
     background-color: $color-grey-dark-2;
-    padding: 5rem 10rem;
-  
-    // & > h1 {
-    //   font-size: 5rem;
-    //   font-weight: bold;
-    //   color: $color-grey-light-0;
-    //   font-family: $font-display;
-    //   line-height: 1;
-    // }
+    padding: 1rem 5rem;
 
     &__logo {
-      line-height: 1;
       flex: 1 1 0;
-      background-color: aliceblue;
       margin: 1rem;
+
+
+      & > img {
+        width: 50%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        // margin-left: 14rem;
+      }
     }
 
     &__socialmedia {
@@ -33,6 +33,7 @@
       text-align: center;
       height: 100px;
       align-items: center;
+      margin-top: 4rem;
 
       &__buttons {
         display: inline-block;
@@ -41,11 +42,22 @@
     }
 
     &__copyright {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: $color-grey-light-0;
       font-family: $font-display;
       line-height: 1;
       flex: 1 1 0;
       margin: 1rem;
+      margin-top: 4rem;
+      margin-left: 6rem;
+
+      & > p {
+        margin: 2rem 0;
+      }
+
+      &__copyright {
+        margin-bottom: 6rem;
+      }
+
     }
 }
