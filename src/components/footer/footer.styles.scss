@@ -1,0 +1,62 @@
+@import '../../sass/main.scss';
+
+.footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $color-grey-dark-2;
+    padding: 1rem 5rem;
+
+    &__logo {
+      flex: 1 1 0;
+      margin: 1rem;
+
+
+      & > img {
+        width: 50%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    &__socialmedia {
+      font-size: 2rem;
+      color: $color-grey-light-0;
+      font-family: $font-display;
+      line-height: 1;
+      flex: 1 1 0;
+      margin: 1rem;
+      text-align: center;
+      height: 100px;
+      align-items: center;
+      margin-top: 4rem;
+
+      &__buttons {
+        display: inline-block;
+      }
+
+    }
+
+    &__copyright {
+      font-size: 1.5rem;
+      color: $color-grey-light-0;
+      font-family: $font-display;
+      line-height: 1;
+      flex: 1 1 0;
+      margin: 1rem;
+      margin-top: 4rem;
+      margin-left: 6rem;
+
+      & > p {
+        margin: 2rem 0;
+      }
+
+      &__copyright {
+        margin-bottom: 6rem;
+      }
+
+    }
+}

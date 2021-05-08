@@ -6,6 +6,8 @@ import RoboboatVideo from '../../components/roboboat-video/roboboat-video.compon
 import SeeAchievement from '../../components/see-achievement/see-achievement.component';
 import SeeMember from '../../components/see-member/see-member.component';
 import ProductOverview from '../../components/product-overview/product-overview.component';
+import Footer from '../../components/footer/footer.component';
+import Sponsor from '../../components/sponsor/sponsor.component';
 
 const Homepage = () => {
   return (
@@ -28,6 +30,15 @@ const Homepage = () => {
       <div className="homepage__product-overview">
         <ProductOverview />
       </div>
+
+      <div className="homepage__sponsor">
+        <Sponsor />
+      </div>
+
+      <div className="homepage__footer">
+        <Footer />
+      </div>
+
     </div>
   );
 };
