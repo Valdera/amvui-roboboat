@@ -30,13 +30,16 @@ class Navbar extends Component {
   render() {
     return (
       <div className={`navbar ${this.state.navbar ? 'active' : ''} `}>
-        <div className="navbar__logo">
+        <div
+          className="navbar__logo"
+          onClick={() => this.props.history.push('/')}>
           <Logo />
         </div>
-        <a href="/">Contacts</a>
-        <a href="/member">Member</a>
-        <a href="/products">Robots</a>
-        <a href="/">Achievements</a>
+        <p onClick={() => this.props.history.push('/members')}>Member</p>
+        <p onClick={() => this.props.history.push('/products')}>Robots</p>
+        <p onClick={() => this.props.history.push('/achievements')}>
+          Achievements
+        </p>
       </div>
     );
   }

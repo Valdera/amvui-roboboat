@@ -14,7 +14,8 @@
   z-index: 100;
   transition: all 0.3s;
 
-  & > a {
+  & > p {
+    cursor: pointer;
     font-family: inherit;
     font-size: 1.5rem;
     text-decoration: none;
@@ -35,6 +36,7 @@
   }
 
   &__logo {
+    cursor: pointer;
     margin-right: auto;
     & > * {
       margin-top: 0.4rem;
