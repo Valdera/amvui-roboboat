@@ -40,6 +40,7 @@ class Navbar extends Component {
         <p onClick={() => this.props.history.push('/achievements')}>
           Achievements
         </p>
+        <p onClick={() => this.props.history.push('/contact')}>Contact</p>
       </div>
     );
   }

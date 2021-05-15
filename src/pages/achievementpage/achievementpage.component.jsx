@@ -4,6 +4,7 @@ import background from '../../assets/background-product.svg';
 
 import AchievementSelect from '../../components/achievement-select/achievement-select.component';
 import AchievementTimeline from '../../components/achievement-timeline/achievement-timeline.component';
+import Footer from '../../components/footer/footer.component';
 import Publication from '../../components/publication/publication.component';
 
 import './achievementpage.styles.scss';
@@ -44,6 +45,9 @@ const AchievementPage = () => {
           title="Underwater ROV MAKARA X: Survei Bawah Laut Menggunakan Remotely Operated"
           listNames={list}
         />
+      </div>
+      <div className="achievementpage__footer">
+        <Footer />
       </div>
     </div>
   );

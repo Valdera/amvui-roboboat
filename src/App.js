@@ -6,6 +6,7 @@ import './App.scss';
 import ProductPage from './pages/productpage/productpage.component';
 import MemberPage from './pages/memberpage/memberpage.component';
 import AchievementPage from './pages/achievementpage/achievementpage.component';
+import ContactPage from './pages/contactpage/contactpage.component';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/products" component={ProductPage} />
         <Route exact path="/members" component={MemberPage} />
         <Route exact path="/achievements" component={AchievementPage} />
+        <Route exact path="/contact" component={ContactPage} />
       </Switch>
     </div>
   );

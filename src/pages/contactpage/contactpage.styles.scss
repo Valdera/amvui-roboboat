@@ -1,0 +1,18 @@
+@import '../../sass/main.scss';
+
+.contactpage {
+  margin-top: 6vh;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  height: 94vh;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__contact {
+    width: 80vw;
+    height: 70vh;
+  }
+}

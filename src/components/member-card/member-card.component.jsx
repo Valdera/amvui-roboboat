@@ -13,6 +13,7 @@ const MemberCard = () => {
         src={
           'https://cdn3.f-cdn.com/contestentries/1376995/30494909/5b566bc71d308_thumb900.jpg'
         }
+        alt="member card"
       />
       <div class="membercard_role">Electrical Engineer</div>
       <div class="membercard_container">

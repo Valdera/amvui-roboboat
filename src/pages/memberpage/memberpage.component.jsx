@@ -1,5 +1,6 @@
 import React from 'react';
 import background from '../../assets/background-product.svg';
+import Footer from '../../components/footer/footer.component';
 import MemberCard from '../../components/member-card/member-card.component';
 import MemberSelect from '../../components/member-select/member-select.component';
 
@@ -19,6 +20,9 @@ const MemberPage = () => {
         <div className="memberpage__item">
           <MemberCard />
         </div>
+      </div>
+      <div className="memberpage__footer">
+        <Footer />
       </div>
     </div>
   );
