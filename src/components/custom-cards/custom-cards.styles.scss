@@ -1,0 +1,41 @@
+@import '../../sass/main.scss';
+
+.custom-card {
+  color: $color-secondary;
+  font-family: $font-primary;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 30rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  transition: all 0.3s;
+
+  &__date {
+    background-color: $color-primary;
+    width: max-content;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  & > ul {
+    & > li {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      & > span {
+        font-weight: bold;
+        color: $color-primary;
+      }
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+  &--right {
+    margin-left: 2.5rem;
+  }
+  &--left {
+    margin-right: 2.5rem;
+  }
+}

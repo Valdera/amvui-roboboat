@@ -1,0 +1,61 @@
+@import '../../sass/main.scss';
+
+.achievement-select {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > h1 {
+    font-size: 5.2rem;
+    font-family: $font-display;
+    color: $color-secondary;
+  }
+
+  & > p {
+    font-size: 1.7rem;
+    color: $color-secondary;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    width: 13rem;
+    padding: 0.5rem;
+    height: 13rem;
+    background-color: $color-white;
+    border-radius: 15px;
+    box-shadow: 0 1.5rem 2rem rgba($color-black, 0.2);
+    transition: all 0.3s ease-out;
+
+    & > p {
+      font-size: 1.4rem;
+      color: $color-secondary;
+      padding-bottom: 0.5rem;
+    }
+
+    & > span {
+      line-height: 1;
+      font-size: 3rem;
+      font-weight: bold;
+      color: $color-primary;
+    }
+
+    &:hover {
+      transform: scale(1.05) translateY(-0.5rem);
+    }
+  }
+
+  &__list {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-column-gap: 4rem;
+  }
+}

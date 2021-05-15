@@ -1,0 +1,75 @@
+@import '../../sass/main.scss';
+
+.achievementpage {
+  width: 100%;
+  margin-top: 6vh;
+  position: relative;
+  overflow-x: hidden;
+
+  &__select {
+    height: 65vh;
+  }
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+    & > * {
+      width: 100%;
+      @include respond(phone) {
+        width: 150%;
+      }
+    }
+  }
+
+  &__timeline {
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+
+    & > h1 {
+      align-self: center;
+      position: relative;
+      font-size: 3.5rem;
+      color: $color-secondary;
+      margin-bottom: 3rem;
+      & > div {
+        width: 25rem;
+        height: 1.5rem;
+        background-color: $color-primary;
+        position: absolute;
+        bottom: 1rem;
+        z-index: -1;
+        left: -1rem;
+      }
+    }
+  }
+
+  &__publications {
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    & > h1 {
+      align-self: center;
+      position: relative;
+      font-size: 3.5rem;
+      color: $color-secondary;
+      margin-bottom: 3rem;
+      & > div {
+        width: 20rem;
+        height: 1.5rem;
+        background-color: $color-primary;
+        position: absolute;
+        bottom: 1rem;
+        z-index: -1;
+        left: -1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import '../../sass/main.scss';
+
+.publication {
+  color: $color-secondary;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  background-color: $color-white;
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  padding: 2rem 3rem;
+  width: 60vw;
+  margin-bottom: 3rem;
+
+  & > h1 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    & > ul {
+      list-style-position: inside;
+      & > li {
+        & > span {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    span {
+      font-weight: bold;
+      color: $color-primary;
+    }
+
+    & > button {
+      font-family: inherit;
+      cursor: pointer;
+      margin-top: auto;
+      padding: 0.7rem 4rem;
+      width: max-content;
+      background-color: $color-primary;
+      border-radius: 10px;
+      color: $color-secondary;
+      border: none;
+      transition: all 0.3s;
+
+      &:hover,
+      &:active {
+        transform: scale(1.05);
+      }
+    }
+  }
+}

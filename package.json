@@ -21,6 +21,7 @@
     "react-slick": "^0.28.1",
     "react-youtube": "^7.13.1",
     "reselect": "^4.0.0",
+    "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
