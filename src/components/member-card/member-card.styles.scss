@@ -1,119 +1,71 @@
 @import '../../sass/main.scss';
-@import 'https://fonts.googleapis.com/css?family=Raleway';
 
-.membercard {
-  position: relative;
-  font-family: 'Raleway';
-  padding-bottom: 1rem;
+.member-card {
+  display: flex;
 
-  & > img {
-    float: left;
-    overflow: hidden;
-    left: 0px;
-    top: 0px;
-    width: 12rem;
-    height: 12rem;
-    border-radius: 50%;
-  }
+  &__picture {
+    position: relative;
+    margin-right: 2rem;
 
-  &_role {
-    font-size: 1.5rem;
-    float: left;
-    overflow: hidden;
-    position: absolute;
-    top: 10rem;
-    background-color: #240558;
-    color: $color-primary;
-    left: 0rem;
-    width: 16rem;
-    padding-top: 0.5rem;
-    padding-bottom: 4px;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  &_container {
-    margin-left: 2rem;
-    margin-top: 1rem;
-    overflow: hidden;
-    float: left;
-    width: fit-content;
-
-    &_major {
-      font-size: 12px;
+    & > img {
+      width: 12rem;
+      border-radius: 50%;
     }
 
-    &_square {
-      background-color: $color-primary;
-    }
-
-    &_linkedin {
-      font-size: 3rem;
-      float: left;
-      margin-left: 4rem;
-      color: white;
-      background-color: $color-primary;
-      width: fit-content;
-      height: fit-content;
-      border-radius: 25%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      padding-left: 1.2rem;
-      padding-right: 1.2rem;
+    & > h3 {
+      bottom: 0;
+      left: 0;
+      width: max-content;
       position: absolute;
-      top: 8.5rem;
-      box-shadow: 2px 2px 5px 0.5px #ada4a4;
-    }
-
-    &_linkedin:hover {
-      cursor: pointer;
-    }
-
-    &_instagram:hover {
-      cursor: pointer;
-    }
-
-    &_instagram {
-      font-size: 3rem;
-      margin-left: 11rem;
-      color: white;
-      background-color: $color-primary;
-      width: fit-content;
-      height: fit-content;
-      border-radius: 25%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      padding-left: 1.2rem;
-      padding-right: 1.2rem;
-      position: absolute;
-      top: 8.5rem;
-      box-shadow: 2px 2px 5px 0.5px #ada4a4;
+      line-height: 1;
+      padding: 0.7rem 1.4rem;
+      font-size: 1.6rem;
+      color: $color-primary;
+      background-color: $color-secondary;
     }
   }
-}
 
-.name_container {
-  &_name {
-    font-size: 24px;
-    color: #240558;
-    align-items: center;
-    text-align: center;
-    margin-left: 1rem;
-    font-weight: bold;
+  &__content {
+    display: grid;
+    grid-template-rows: max-content max-content 1fr;
+
+    & > h3 {
+      position: relative;
+      color: $color-secondary;
+      font-size: 2.4rem;
+
+      & > div {
+        z-index: -1;
+
+        position: absolute;
+        bottom: 0.5rem;
+        left: 0;
+        background-color: $color-primary;
+        height: 1.2rem;
+        width: 50%;
+      }
+    }
+
+    & > p {
+      font-size: 1.3rem;
+    }
   }
 
-  &_square {
-    position: absolute;
-    top: 3rem;
-    width: 15.2rem;
-    height: 1.5rem;
-    background-color: $color-primary;
-    z-index: -1;
+  &__social {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: 5rem;
+
+    & > i {
+      cursor: pointer;
+      color: $color-primary;
+      margin-right: 1.5rem;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $color-secondary;
+      }
+    }
   }
 }

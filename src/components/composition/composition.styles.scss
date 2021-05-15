@@ -1,0 +1,43 @@
+@import '../../sass/main.scss';
+
+.composition {
+  position: relative;
+
+  &__photo {
+    cursor: pointer;
+    width: 50%;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    // border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.3s ease-out;
+    outline-offset: 0.5rem;
+
+    &--p1 {
+      left: 0;
+      top: 0rem;
+    }
+
+    &--p2 {
+      right: 3rem;
+      top: 2rem;
+    }
+
+    &--p3 {
+      left: 20%;
+      top: 10rem;
+    }
+
+    &:hover {
+      border-radius: 0;
+      outline: 0.5rem solid $color-primary;
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+      z-index: 20;
+    }
+  }
+
+  &:hover &__photo:not(:hover) {
+    transform: scale(0.95);
+  }
+}

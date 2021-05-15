@@ -13,10 +13,14 @@ const Product = () => {
         <div className="product--desc">
           <i class="fas fa-robot"></i>
           <span>Underwater ROV</span>
+          <i class="fas fa-trophy"></i>
+          <span>2 Achievements</span>
+          <i class="fas fa-search"></i>
+          <span>2 Research</span>
           <i class="fas fa-calendar-alt"></i>
           <span>2019</span>
         </div>
-        <button>More Details</button>
+        {/* <button>More Details</button> */}
       </div>
     </div>
   );

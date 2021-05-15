@@ -1,34 +1,23 @@
 import React from 'react';
-import './member-card.styles.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import bos from '../../assets/bos.png';
 
-library.add(faLinkedinIn, faInstagram);
+import './member-card.styles.scss';
 
 const MemberCard = () => {
   return (
-    <div className="membercard">
-      <img
-        src={
-          'https://cdn3.f-cdn.com/contestentries/1376995/30494909/5b566bc71d308_thumb900.jpg'
-        }
-        alt="member card"
-      />
-      <div class="membercard_role">Electrical Engineer</div>
-      <div class="membercard_container">
-        <div class="name_container">
-          <div class="name_container_name">Hansel Matthew</div>
-          <div class="name_container_square"></div>
-        </div>
-
-        <div class="membercard_container_square"></div>
-        <div class="membercard_container_major">Computer Engineering 18</div>
-        <div class="membercard_container_linkedin">
-          <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-        </div>
-        <div class="membercard_container_instagram">
-          <FontAwesomeIcon icon={['fab', 'instagram']} />
+    <div className="member-card">
+      <div className="member-card__picture">
+        <img src={bos} alt="member " />
+        <h3>Electrical Engineer</h3>
+      </div>
+      <div className="member-card__content">
+        <h3>
+          Hansel Matthew <div />
+        </h3>
+        <p>Electrical Engineering 18</p>
+        <div className="member-card__social">
+          <i class="fab fa-linkedin"></i>{' '}
+          <i class="fab fa-instagram-square"></i>
         </div>
       </div>
     </div>

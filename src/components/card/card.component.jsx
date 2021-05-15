@@ -18,9 +18,12 @@ const Card = () => {
         <ul>
           <li>2019</li>
           <li>Underwater ROV</li>
+          <li>
+            <span>2nd ASEAN Mate ROV</span>
+          </li>
         </ul>
         <div className="card__button">
-          <ButtonPulsate>More Details</ButtonPulsate>
+          {/* <ButtonPulsate>More Details</ButtonPulsate> */}
         </div>
       </div>
     </div>

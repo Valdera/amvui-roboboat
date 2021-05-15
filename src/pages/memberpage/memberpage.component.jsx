@@ -1,8 +1,12 @@
 import React from 'react';
 import background from '../../assets/background-product.svg';
 import Footer from '../../components/footer/footer.component';
-import MemberCard from '../../components/member-card/member-card.component';
 import MemberSelect from '../../components/member-select/member-select.component';
+import SectionElectrical from '../../components/section-electrical/section-electrical.component';
+import SectionManager from '../../components/section-manager/section-manager.component';
+import SectionMechanic from '../../components/section-mechanic/section-mechanic.component';
+import SectionProgrammer from '../../components/section-programmer/section-programmer.component';
+import SectionExecutives from '../../components/section-executives/section-executives.component';
 
 import './memberpage.styles.scss';
 
@@ -16,10 +20,12 @@ const MemberPage = () => {
         <MemberSelect />
       </div>
 
-      <div className="memberpage__list">
-        <div className="memberpage__item">
-          <MemberCard />
-        </div>
+      <div className="memberpage__member">
+        <SectionMechanic />
+        <SectionElectrical />
+        <SectionManager />
+        <SectionProgrammer />
+        <SectionExecutives />
       </div>
       <div className="memberpage__footer">
         <Footer />

@@ -21,7 +21,7 @@ const Contact = () => {
           <p>14045</p>
         </div>
         <div className="contact__item">
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
           <span>E-mail :</span>
           <p>amvui@gmail.com</p>
         </div>
