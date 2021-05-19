@@ -9,7 +9,12 @@
 
     & > img {
       width: 12rem;
+      height: 12rem;
       border-radius: 50%;
+      @include respond(tab-port) {
+        width: 10rem;
+        height: 10rem;
+      }
     }
 
     & > h3 {
@@ -22,17 +27,27 @@
       font-size: 1.6rem;
       color: $color-primary;
       background-color: $color-secondary;
+      @include respond(tab-port) {
+        font-size: 1.4rem;
+      }
     }
   }
 
   &__content {
     display: grid;
     grid-template-rows: max-content max-content 1fr;
+    @include respond(tab-port) {
+      grid-template-rows: max-content max-content 1fr;
+    }
 
     & > h3 {
       position: relative;
       color: $color-secondary;
       font-size: 2.4rem;
+
+      @include respond(tab-port) {
+        font-size: 2rem;
+      }
 
       & > div {
         z-index: -1;
@@ -43,6 +58,10 @@
         background-color: $color-primary;
         height: 1.2rem;
         width: 50%;
+        @include respond(tab-port) {
+          height: 1rem;
+          left: -2px;
+        }
       }
     }
 
@@ -57,9 +76,15 @@
     justify-content: start;
     margin-left: 12rem;
     font-size: 5rem;
+    @include respond(tab-port) {
+      font-size: 4rem;
+    }
 
     & > a {
+      height: min-content;
+      line-height: 1;
       & > i {
+        line-height: 1;
         cursor: pointer;
         color: $color-primary;
         margin-right: 1.5rem;

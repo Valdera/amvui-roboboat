@@ -12,7 +12,7 @@
     color: $color-secondary;
 
     @include respond(phone) {
-      font-size: 2.8rem;
+      font-size: 2.4rem;
     }
   }
   &--line {
@@ -24,8 +24,11 @@
     z-index: -1;
     left: -1rem;
     @include respond(phone) {
+      left: -0.5rem;
+
       height: 1rem;
       bottom: 1rem;
+      width: 20rem;
     }
   }
 
@@ -35,9 +38,14 @@
     grid-column-gap: 5rem;
     grid-row-gap: 5rem;
     grid-template-columns: max-content max-content max-content;
+    @include respond(tab-port) {
+      grid-template-columns: max-content max-content;
+    }
     @include respond(phone) {
-      grid-column-gap: 4rem;
-      grid-row-gap: 4rem;
+      margin-top: 2rem;
+
+      grid-column-gap: 2rem;
+      grid-row-gap: 3rem;
       grid-template-columns: max-content max-content;
     }
   }

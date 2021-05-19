@@ -14,18 +14,25 @@
     z-index: -1;
     & > * {
       width: 100%;
+      @include respond(tab-port) {
+        width: 135%;
+        margin-top: -0.5rem;
+      }
       @include respond(phone) {
         width: 150%;
         background-color: $color-primary;
-        height: 45rem;
+        height: 80rem;
       }
     }
   }
 
   &__select {
     height: 65vh;
+    @include respond(tab-port) {
+      height: 55rem;
+    }
     @include respond(phone) {
-      height: 45rem;
+      height: 80rem;
     }
   }
 
@@ -33,7 +40,7 @@
     padding: 0 10rem;
     padding-bottom: 5rem;
     @include respond(phone) {
-      padding: 0 5rem;
+      padding: 0 2rem;
       padding-bottom: 5rem;
     }
   }
