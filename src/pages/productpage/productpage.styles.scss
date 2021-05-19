@@ -16,17 +16,26 @@
       width: 100%;
       @include respond(phone) {
         width: 150%;
+        background-color: $color-primary;
+        height: 45rem;
       }
     }
   }
 
   &__select {
     height: 65vh;
+    @include respond(phone) {
+      height: 45rem;
+    }
   }
 
   &__list {
     padding: 0 10rem;
     padding-bottom: 5rem;
+    @include respond(phone) {
+      padding: 0 5rem;
+      padding-bottom: 5rem;
+    }
   }
 
   &__footer {

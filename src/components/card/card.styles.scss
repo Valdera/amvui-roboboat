@@ -9,6 +9,11 @@
   position: relative;
   transition: all 0.3s;
 
+  @include respond(phone) {
+    width: 24rem;
+    padding-bottom: 0rem;
+  }
+
   &:hover {
     transform: scale(1.05);
   }
@@ -23,6 +28,10 @@
     border-top-right-radius: 20px;
     overflow: hidden;
     z-index: 1;
+
+    @include respond(phone) {
+      height: 18rem;
+    }
 
     & > img {
       height: 100%;
@@ -40,6 +49,9 @@
     top: 17rem;
     right: 1rem;
     width: 75%;
+    @include respond(phone) {
+      top: 15rem;
+    }
   }
 
   &__heading-span {
