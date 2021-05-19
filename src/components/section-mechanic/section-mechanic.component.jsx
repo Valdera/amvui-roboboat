@@ -1,6 +1,7 @@
 import React from 'react';
 import MemberCard from '../../components/member-card/member-card.component';
 import Composition from '../../components/composition/composition.component';
+import { mechanical } from '../../data/member';
 
 const SectionMechanic = () => {
   return (
@@ -31,10 +32,9 @@ const SectionMechanic = () => {
         </div>
       </div>
       <div className="member-section__members">
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
+        {mechanical.map((member) => (
+          <MemberCard member={member} key={member.name} />
+        ))}
       </div>
     </div>
   );

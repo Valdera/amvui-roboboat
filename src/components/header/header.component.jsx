@@ -25,14 +25,14 @@ const Header = () => {
       <div className="header__right">
         <div className="header__bubble header__bubble--1">
           <Bubble
-            image={ship1}
+            image="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/header%2Fship-1-bubble.jpg?alt=media&token=1a098424-757a-459e-87f3-c88acdb6dcce"
             title="Makara X"
             desc="Underwater Surface Vehicle for SAUVC 2020"
           />
         </div>
         <div className="header__bubble header__bubble--2">
           <Bubble
-            image={ship1}
+            image="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/header%2Fship-2-bubble.jpg?alt=media&token=41db8d6a-e1aa-4617-b95d-0345eb0c8a00"
             title="Makara X"
             desc="Underwater Surface Vehicle for SAUVC 2020"
           />

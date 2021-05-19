@@ -4,13 +4,32 @@
   height: 90vh;
   display: grid;
   padding-top: 9rem;
-
   grid-gap: 10rem;
   grid-template-columns: 0.7fr 1fr;
+
+  @include respond(tab-land) {
+    padding-top: 9rem;
+    grid-gap: 8rem;
+  }
+
+  @include respond(tab-port) {
+    padding-top: 3rem;
+    grid-template-columns: 0.6fr;
+    height: max-content;
+    margin-bottom: 20rem;
+  }
+
+  @include respond(phone) {
+    padding-top: 3rem;
+    grid-template-columns: 1fr;
+  }
 
   &__left {
     & > * {
       margin-bottom: 3rem;
+      @include respond(tab-port) {
+        margin-bottom: 1.5rem;
+      }
     }
     & > h1 {
       line-height: 1.1;
@@ -18,10 +37,21 @@
       font-weight: 700;
       color: $color-secondary;
       font-family: $font-display;
+      @include respond(phone) {
+        font-size: 4.8rem;
+      }
     }
 
     & > p {
       font-size: 1.5rem;
+    }
+  }
+
+  &__svg {
+    @include respond(tab-land) {
+      & > * {
+        width: 100%;
+      }
     }
   }
 
@@ -30,6 +60,10 @@
     position: relative;
     justify-content: right;
     align-items: top;
+
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 
   &__bubble {
@@ -39,16 +73,28 @@
     &--1 {
       top: -2rem;
       left: 0;
+      @include respond(tab-land) {
+        top: 0rem;
+        left: -2rem;
+      }
     }
 
     &--2 {
       bottom: 22rem;
       left: 8rem;
+      @include respond(tab-land) {
+        bottom: 27rem;
+        right: 8rem;
+      }
     }
 
     &--3 {
       top: 12rem;
       right: 3rem;
+      @include respond(tab-land) {
+        top: 15rem;
+        right: 8rem;
+      }
     }
   }
 }

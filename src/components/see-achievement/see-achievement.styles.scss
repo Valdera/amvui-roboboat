@@ -5,8 +5,17 @@
   align-items: center;
   justify-content: center;
 
+  @include respond(phone) {
+    justify-content: start;
+  }
+
   &__content {
     margin-right: 15rem;
+
+    @include respond(tab-port) {
+      margin-right: 5rem;
+    }
+
     h1 {
       font-size: 3.5rem;
       margin-bottom: 0.5rem;
@@ -17,6 +26,16 @@
       font-size: 1.6rem;
       list-style-position: inside;
       margin-bottom: 3rem;
+    }
+  }
+
+  &__svg {
+    & > * {
+      width: 32rem;
+    }
+
+    @include respond(phone) {
+      display: none;
     }
   }
 }

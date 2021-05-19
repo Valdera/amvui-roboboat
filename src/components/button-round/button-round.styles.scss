@@ -1,6 +1,7 @@
 @import '../../sass/main.scss';
 
 .button-round {
+  font-family: $font-primary;
   cursor: pointer;
   padding: 1.2rem 3rem;
   background-color: $color-grey-dark-2;

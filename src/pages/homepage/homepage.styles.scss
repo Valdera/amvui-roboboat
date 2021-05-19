@@ -12,10 +12,14 @@
     left: 0;
     width: 100vw;
     z-index: -1;
+
     & > * {
       width: 100%;
       @include respond(phone) {
         width: 150%;
+        background-color: $color-primary;
+        padding-bottom: 8rem;
+        height: 45rem;
       }
     }
   }
@@ -23,20 +27,71 @@
   &__header {
     padding: 0 10rem;
     margin-bottom: 5rem;
+    @include respond(tab-land) {
+      margin-bottom: 0rem;
+    }
+    @include respond(tab-port) {
+      padding: 0 10rem;
+    }
+    @include respond(phone) {
+      padding: 0 5rem;
+    }
   }
 
   &__roboboat-video {
     padding: 0 10rem;
     margin-bottom: 8rem;
+    @include respond(tab-port) {
+      padding: 0 0rem;
+      margin: 0 10rem;
+      margin-bottom: 8rem;
+    }
+
+    @include respond(phone) {
+      margin: 0 3rem;
+      margin-top: -5rem;
+    }
   }
 
   &__see-achievement {
     padding: 0 10rem;
     margin-bottom: 5rem;
+    @include respond(phone) {
+      margin-top: 3rem;
+      padding: 0 5rem;
+    }
   }
 
   &__see-member {
     padding: 0 10rem;
     margin-bottom: 15rem;
+    @include respond(tab-port) {
+      margin-bottom: 5rem;
+    }
+    @include respond(phone) {
+      margin-top: 3rem;
+      padding: 0 5rem;
+    }
+  }
+
+  &__product-overview {
+    @include respond(tab-port) {
+      display: none;
+    }
+  }
+
+  &__alumni {
+    padding: 0 10rem;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+
+    @include respond(phone) {
+      padding: 0 5rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__footer {
+    margin-top: 2rem;
   }
 }

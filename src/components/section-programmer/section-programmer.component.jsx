@@ -1,6 +1,7 @@
 import React from 'react';
 import MemberCard from '../../components/member-card/member-card.component';
 import Composition from '../../components/composition/composition.component';
+import { programmer } from '../../data/member';
 
 const SectionProgrammer = () => {
   return (
@@ -33,10 +34,9 @@ const SectionProgrammer = () => {
         </div>
       </div>
       <div className="member-section__members">
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
+        {programmer.map((member) => (
+          <MemberCard member={member} key={member.name} />
+        ))}
       </div>
     </div>
   );

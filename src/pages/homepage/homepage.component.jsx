@@ -8,6 +8,7 @@ import SeeMember from '../../components/see-member/see-member.component';
 import ProductOverview from '../../components/product-overview/product-overview.component';
 import Footer from '../../components/footer/footer.component';
 import Sponsor from '../../components/sponsor/sponsor.component';
+import Alumni from '../../components/alumni/alumni.component';
 
 const Homepage = () => {
   return (
@@ -30,15 +31,15 @@ const Homepage = () => {
       <div className="homepage__product-overview">
         <ProductOverview />
       </div>
-
+      <div className="homepage__alumni">
+        <Alumni />
+      </div>
       <div className="homepage__sponsor">
         <Sponsor />
       </div>
-
       <div className="homepage__footer">
         <Footer />
       </div>
-
     </div>
   );
 };

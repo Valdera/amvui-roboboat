@@ -1,0 +1,154 @@
+@import '../../sass/main.scss';
+
+.alumni {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+
+  &__list {
+    width: 100%;
+  }
+
+  &__slide {
+    width: 100%;
+  }
+
+  &__item {
+    background-color: khaki;
+  }
+
+  & > h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-secondary;
+    font-family: $font-display;
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+
+    @include respond(phone) {
+      width: 100%;
+      text-align: center;
+      font-size: 3.5rem;
+    }
+
+    & > div {
+      margin-top: 1rem;
+      text-align: center;
+      height: 1.5rem;
+      width: 50rem;
+      background-color: $color-primary;
+
+      @include respond(phone) {
+        margin-top: 2rem;
+
+        width: 30rem;
+      }
+    }
+  }
+
+  & > p {
+    font-size: 1.5rem;
+  }
+
+  &__list {
+    margin-top: 3rem;
+  }
+
+  &__slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @include respond(tab-port) {
+      // margin-right: 0rem !important;
+    }
+  }
+}
+
+.alumni-card {
+  width: 80rem;
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+
+  @include respond(tab-port) {
+    width: 100%;
+    grid-template-columns: 20rem 1fr;
+  }
+
+  @include respond(phone) {
+    width: 100%;
+    margin-bottom: 5rem;
+
+    grid-template-columns: 10rem 1fr;
+  }
+
+  &__content {
+    position: relative;
+
+    & > i {
+      color: $color-primary;
+      right: -3.5rem;
+      top: -0;
+      position: absolute;
+      font-size: 5rem;
+      @include respond(tab-port) {
+        right: 3rem;
+      }
+      @include respond(phone) {
+        right: 0rem;
+      }
+    }
+
+    &--text {
+      padding: 1rem;
+      font-size: 1.5rem;
+      @include respond(tab-port) {
+        width: 85%;
+      }
+
+      & > h2 {
+        color: $color-secondary;
+      }
+    }
+  }
+
+  &__photo {
+    margin-right: 5rem;
+    @include respond(tab-port) {
+      margin-right: 1rem;
+    }
+
+    & > img {
+      width: 15rem;
+      height: 15rem;
+      border-radius: 50%;
+
+      @include respond(phone) {
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+
+    & > h2 {
+      margin-top: 1rem;
+      font-size: 2.1rem;
+      color: $color-secondary;
+      line-height: 1;
+
+      @include respond(phone) {
+        font-size: 1.3rem;
+      }
+    }
+    & > span {
+      font-size: 1.3rem;
+      color: $color-primary;
+      @include respond(phone) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

@@ -4,9 +4,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  @include respond(phone) {
+    justify-content: start;
+  }
   &__content {
     margin-left: 15rem;
+
+    @include respond(tab-port) {
+      margin-left: 5rem;
+    }
+
+    @include respond(phone) {
+      margin-left: 0;
+    }
     h1 {
       font-size: 3.5rem;
       margin-bottom: 0.5rem;
@@ -17,6 +27,16 @@
       font-size: 1.6rem;
       margin-bottom: 3rem;
       width: 40rem;
+    }
+  }
+
+  &__svg {
+    & > * {
+      width: 32rem;
+    }
+
+    @include respond(phone) {
+      display: none;
     }
   }
 }
