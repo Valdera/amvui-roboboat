@@ -8,6 +8,15 @@
 
   &__select {
     height: 65vh;
+    @include respond(tab-land) {
+      height: 55rem;
+    }
+    @include respond(tab-port) {
+      height: 55rem;
+    }
+    @include respond(phone) {
+      height: 58rem;
+    }
   }
 
   &__background {
@@ -18,8 +27,14 @@
     z-index: -1;
     & > * {
       width: 100%;
+      @include respond(tab-port) {
+        width: 135%;
+        margin-top: -0.5rem;
+      }
       @include respond(phone) {
         width: 150%;
+        background-color: $color-primary;
+        height: 55rem;
       }
     }
   }
@@ -81,6 +96,10 @@
     align-items: center;
     flex-direction: column;
 
+    @include respond(phone) {
+      display: none;
+    }
+
     & > h1 {
       align-self: center;
       position: relative;
@@ -103,6 +122,11 @@
 .news {
   height: 20rem;
   width: 100rem;
+  @include respond(tab-port) {
+    height: 20rem;
+    width: 80rem;
+  }
+
   position: relative;
   & > img {
     position: absolute;

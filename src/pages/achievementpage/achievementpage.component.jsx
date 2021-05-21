@@ -5,12 +5,6 @@ import AchievementTimeline from '../../components/achievement-timeline/achieveme
 import Footer from '../../components/footer/footer.component';
 import Publication from '../../components/publication/publication.component';
 
-import news1 from '../../assets/publication-1.png';
-import news2 from '../../assets/publication-2.png';
-import news3 from '../../assets/publication-3.png';
-import news4 from '../../assets/publication-4.png';
-import news5 from '../../assets/publication-5.png';
-
 import './achievementpage.styles.scss';
 
 const AchievementPage = () => {
@@ -41,11 +35,31 @@ const AchievementPage = () => {
           Publications <div />
         </h1>
         <div className="news">
-          <img src={news1} className="news--1" />
-          <img src={news2} className="news--2" />
-          <img src={news3} className="news--3" />
-          <img src={news4} className="news--4" />
-          <img src={news5} className="news--5" />
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/news%2Fpublication-1.png?alt=media&token=eb79d584-2f4d-451a-9a3c-16bb466ac8fc"
+            className="news--1"
+            alt="news-1"
+          />
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/news%2Fpublication-2.png?alt=media&token=17123f25-25be-4b85-bf22-985a32a4644c"
+            className="news--2"
+            alt="news-2"
+          />
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/news%2Fpublication-3.png?alt=media&token=50d9c7c2-138b-47d9-ac5b-891f2c99bea6"
+            className="news--3"
+            alt="news-3"
+          />
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/news%2Fpublication-4.png?alt=media&token=6a919e2d-6f6c-4c66-9181-3bd585770aa9"
+            className="news--4"
+            alt="news-4"
+          />
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/news%2Fpublication-5.png?alt=media&token=0c458100-4c39-49cf-8439-a0a4f081ebcf"
+            className="news--5"
+            alt="news-5"
+          />
         </div>
       </div>
       <div className="achievementpage__publications">

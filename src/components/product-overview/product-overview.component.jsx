@@ -8,7 +8,7 @@ const ProductOverview = () => {
     <div className="product-overview">
       <div className="product-overview__title">
         <div />
-        <h1>Our Products</h1>
+        <h1>Products Overview</h1>
         <div />
       </div>
 

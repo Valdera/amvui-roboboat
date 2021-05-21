@@ -4,6 +4,12 @@ import Composition from '../../components/composition/composition.component';
 import { programmer } from '../../data/member';
 
 const SectionProgrammer = () => {
+  const imageArr = [
+    'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/section%2Fsection_programming-1.png?alt=media&token=55b0cdd4-32ca-40c7-a5fa-e285213ec15c',
+    'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/section%2Fsection_programming-2.jpg?alt=media&token=0fa39f0b-f85c-4f07-809d-b98a680752b1',
+    'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/section%2Fsection_programming-3.jpg?alt=media&token=f74ee509-f2fe-41d6-95e0-4b53df288e75'
+  ];
+
   return (
     <div className="member-section">
       <div className="member-section__title">
@@ -13,7 +19,7 @@ const SectionProgrammer = () => {
         <p>Programming Division</p>
       </div>
       <div className="member-section__desc">
-        <Composition />
+        <Composition imageArr={imageArr} />
         <div className="member-section__text">
           <p>
             The programmer division is the division that give life to our ships

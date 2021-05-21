@@ -4,6 +4,12 @@ import Composition from '../../components/composition/composition.component';
 import { mechanical } from '../../data/member';
 
 const SectionMechanic = () => {
+  const imageArr = [
+    'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/section%2Fsection_mechanic-1.jpg?alt=media&token=f4a6f899-f974-4734-87c9-27c99c64ccaf',
+    'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/section%2Fsection_mechanic-2.jpg?alt=media&token=1441d5c2-9f92-46da-834f-0dfa5447c250',
+    'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/section%2Fsection-mechanic-3.jpg?alt=media&token=ebddda73-3179-4ab7-80de-b2197ab3d7c9'
+  ];
+
   return (
     <div className="member-section">
       <div className="member-section__title">
@@ -13,7 +19,7 @@ const SectionMechanic = () => {
         <p>Mechanical Division</p>
       </div>
       <div className="member-section__desc">
-        <Composition />
+        <Composition imageArr={imageArr} />
         <div className="member-section__text">
           <p>
             The Mechanical division is the division responsible for the

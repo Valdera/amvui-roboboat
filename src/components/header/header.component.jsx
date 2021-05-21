@@ -16,9 +16,10 @@ const Header = () => {
           <br /> WE DEVELOP
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut.
+          <span> Autonomous Marine Vehicle Universitas Indonesia</span> is a
+          team that focuses on the development of robots in the maritime field
+          with <span>Autonomous Surface Vehicles (ASV)</span> and{' '}
+          <span>Autonomous Underwater Vehicles (AUV).</span>
         </p>
         <ButtonRound>See More</ButtonRound>
       </div>

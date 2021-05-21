@@ -12,6 +12,10 @@
     font-size: 5.2rem;
     font-family: $font-display;
     color: $color-secondary;
+
+    @include respond(phone) {
+      font-size: 4rem;
+    }
   }
 
   & > p {
@@ -57,5 +61,9 @@
     display: grid;
     grid-template-columns: repeat(4, max-content);
     grid-column-gap: 4rem;
+    @include respond(phone) {
+      grid-template-columns: repeat(2, max-content);
+      grid-row-gap: 3rem;
+    }
   }
 }

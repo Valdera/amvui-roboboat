@@ -14,9 +14,9 @@ const RoboboatVideo = () => {
       <h1>AMV UI for Roboboat 2021</h1>
       <Line />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut.
+        RoboBoat is an international student competition. Teams from around the
+        world design autonomous, robotic boats to navigate through a challenge
+        course.
       </p>
       <div className="roboboat-video__youtube">
         <YouTube videoId="jsRMPio2Jv0" opts={opts} />

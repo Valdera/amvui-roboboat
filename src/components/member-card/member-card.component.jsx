@@ -1,13 +1,24 @@
 import React from 'react';
-import bos from '../../assets/bos.png';
 
 import './member-card.styles.scss';
 
 const MemberCard = ({ member }) => {
+  const unknown =
+    'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_unknown.jpg?alt=media&token=914b850b-60f3-4254-83e4-7b08be206634';
+
   return (
     <div className="member-card">
       <div className="member-card__picture">
-        <img src={bos} alt="member " />
+        {member.url ? (
+          <div>
+            <img src={member.url} alt="member " />
+          </div>
+        ) : (
+          <div>
+            {' '}
+            <img src={unknown} alt="member " />
+          </div>
+        )}
         <h3>{member.role}</h3>
       </div>
       <div className="member-card__content">

@@ -8,6 +8,9 @@
   background-color: $color-grey-light-1;
   padding: 5rem 10rem;
 
+  @include respond(big-desktop) {
+    padding: 5 20rem;
+  }
   &__title {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;

@@ -27,6 +27,10 @@ class Navbar extends Component {
     }
   };
 
+  changePage = (link) => {
+    this.props.history.push(link);
+  };
+
   render() {
     return (
       <div className={`navbar ${this.state.navbar ? 'active' : ''} `}>
