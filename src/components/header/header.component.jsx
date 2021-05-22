@@ -47,7 +47,7 @@ const Header = () => {
           <Bubble
             image="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/header%2Fship-3-bubble.JPG?alt=media&token=bd3ba6db-7bf1-4c7e-96c2-31a6c4aab0a7"
             title="Makara 9"
-            desc="1st Place on Autonomous Vehicle KKCTBN 2019"
+            desc="3rd Place on Autonomous Vehicle KKCTBN 2019"
           />
         </div>
         <div className="header__svg">

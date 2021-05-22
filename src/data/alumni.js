@@ -16,7 +16,7 @@ export const alumni = [
   {
     name: 'Irfan Rahadi',
     title: 'AMV UI is a place to develop a new things',
-    text: 'Being Part of AMV are choices that I will not regret. Using knowledge that has been taught for creating new technology is the most interisting thing. Every International and National competition is what we are waiting for where we as a team can be absent from college for more than one week and get a free vacation.',
+    text: 'Being Part of AMV are choices that I will not regret. Using knowledge that has been taught for creating new technology is the most interisting thing. Every International and National competition is what we are waiting for.',
     role: 'Team Leader AMV UI 2019/2020',
     url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/alumni%2Falumni_irfan.JPG?alt=media&token=e61fc44a-7864-4250-90ba-aaa60f56cf39'
   }

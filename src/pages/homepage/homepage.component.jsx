@@ -23,12 +23,36 @@ const Homepage = () => {
       <div id="roboboat" className="homepage__roboboat-video">
         <RoboboatVideo />
       </div>
+      <div className="homepage__memo">
+        <div className="memo">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/memo%2Fmemo_kkctbn.jpg?alt=media&token=e7ed6148-a424-408c-a128-4178c680e00d"
+            alt=""
+          />
+          <p>3rd Place KKCTBN 2019</p>
+        </div>
+        <div className="memo">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/memo%2Fmemo_auvsi.jpg?alt=media&token=65360d08-03b1-4f75-a0c2-e4f06fdddf59"
+            alt=""
+          />
+          <p>3rd Place AUVSI 2019</p>
+        </div>
+        <div className="memo">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/memo%2Fmemo_mate.jpg?alt=media&token=db3ca7e9-80df-4475-a55f-f4b6f2e16043"
+            alt=""
+          />
+          <p>1st Place ASEAN MATE ROV 2019</p>
+        </div>
+      </div>
       <div className="homepage__see-achievement">
         <SeeAchievement />
       </div>
       <div className="homepage__see-member">
         <SeeMember />
       </div>
+
       <div className="homepage__product-overview">
         <ProductOverview />
       </div>

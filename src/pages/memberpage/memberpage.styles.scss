@@ -52,6 +52,8 @@
 }
 
 .member-section {
+  animation: moveInLeft 0.5s;
+
   display: flex;
   flex-direction: column;
   width: 100rem;
@@ -70,6 +72,8 @@
 
   @include respond(phone) {
     padding: 0 3rem;
+    margin: 0 0rem;
+    margin-bottom: 10rem;
   }
 
   &__title {
@@ -102,6 +106,8 @@
     display: grid;
     grid-template-columns: 4fr 6fr;
     @include respond(phone) {
+      margin-top: 1.5rem;
+
       height: max-content;
       grid-template-columns: 1fr;
       & > * {

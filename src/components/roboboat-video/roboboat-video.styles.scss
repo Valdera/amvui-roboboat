@@ -7,6 +7,8 @@
   align-items: center;
 
   &__youtube {
+    animation: moveInBottom 0.8s;
+
     margin-top: 1.2rem;
 
     @include respond(tab-port) {
@@ -22,7 +24,7 @@
       & > * {
         & > * {
           width: 100%;
-          height: 35rem;
+          height: 30rem;
         }
       }
     }

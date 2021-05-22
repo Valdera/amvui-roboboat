@@ -30,7 +30,7 @@ const Alumni = () => {
           pagination={true}
           className="alumni__swiper">
           {alumni.map((alum) => (
-            <SwiperSlide className="alumni__slide">
+            <SwiperSlide key={alum.name} className="alumni__slide">
               <div className="alumni-card">
                 <div className="alumni-card__photo">
                   <img src={alum.url} alt="alumni" />

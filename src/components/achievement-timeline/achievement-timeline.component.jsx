@@ -35,14 +35,14 @@ const AchievementTimeline = () => {
     <div className="achievement-timeline">
       <Timeline theme={customTheme}>
         <Events>
-          <TextEvent card={CustomCard2012} />
-          <TextEvent card={CustomCard2013} />
-          <TextEvent card={CustomCard2014} />
-          <TextEvent card={CustomCard2015} />
-          <TextEvent card={CustomCard2016} />
-          <TextEvent card={CustomCard2017} />
-          <TextEvent card={CustomCard2018} />
-          <TextEvent card={CustomCard2019} />
+          <TextEvent date="" text="" card={CustomCard2012} />
+          <TextEvent date="" text="" card={CustomCard2013} />
+          <TextEvent date="" text="" card={CustomCard2014} />
+          <TextEvent date="" text="" card={CustomCard2015} />
+          <TextEvent date="" text="" card={CustomCard2016} />
+          <TextEvent date="" text="" card={CustomCard2017} />
+          <TextEvent date="" text="" card={CustomCard2018} />
+          <TextEvent date="" text="" card={CustomCard2019} />
         </Events>
       </Timeline>
     </div>

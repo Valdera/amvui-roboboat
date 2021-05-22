@@ -9,6 +9,8 @@
   align-items: center;
 
   & > h1 {
+    animation: moveInTop 0.7s;
+
     font-size: 5.2rem;
     font-family: $font-display;
     color: $color-secondary;
@@ -20,6 +22,8 @@
   }
 
   &__item {
+    animation: opacityUp 0.8s;
+
     cursor: pointer;
     width: 13rem;
     height: 13rem;
@@ -28,7 +32,8 @@
     box-shadow: 0 1.5rem 2rem rgba($color-black, 0.2);
     transition: all 0.3s ease-out;
 
-    &:hover {
+    &:hover,
+    &:active {
       border: 2px solid $color-secondary;
 
       transform: scale(1.05) translateY(-0.5rem);

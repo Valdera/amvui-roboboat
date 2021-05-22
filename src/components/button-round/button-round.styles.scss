@@ -11,7 +11,8 @@
   color: $color-white;
   transition: all 0.3s ease-out;
 
-  &:hover {
+  &:hover,
+  &:active {
     transform: scale(1.05);
   }
 
@@ -19,7 +20,8 @@
     background-color: $color-primary;
     color: $color-secondary;
 
-    &:hover {
+    &:hover,
+    &:active {
       transform: scale(1.05);
       background-color: $color-secondary;
       color: $color-primary;

@@ -2,8 +2,14 @@ import React from 'react';
 import { ReactComponent as AchievementSvg } from '../../assets/achievement-winner.svg';
 import ButtonRound from '../button-round/button-round.component';
 import './see-achievement.styles.scss';
+import { withRouter } from 'react-router-dom';
 
-const SeeAchievement = () => {
+const SeeAchievement = ({ history }) => {
+  const handleClick = () => {
+    history.push('/achievements');
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="see-achievement">
       <div className="see-achievement__content">
@@ -14,7 +20,9 @@ const SeeAchievement = () => {
           <li>3 ASV National Competition</li>
           <li>And many more</li>
         </ul>
-        <ButtonRound type="yellow">See More</ButtonRound>
+        <ButtonRound handleClick={handleClick} type="yellow">
+          See More
+        </ButtonRound>
       </div>
       <div className="see-achievement__svg">
         <AchievementSvg />
@@ -23,4 +31,4 @@ const SeeAchievement = () => {
   );
 };
 
-export default SeeAchievement;
+export default withRouter(SeeAchievement);

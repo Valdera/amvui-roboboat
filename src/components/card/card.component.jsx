@@ -6,7 +6,7 @@ const Card = ({ product, type }) => {
   return (
     <div className="card">
       <div className={`card__picture `}>
-        <img src={product.url} alt="card" />
+        <img src={product.url} alt=" " />
       </div>
       <h4 className="card__heading">
         <span className={`card__heading-span `}>{product.name}</span>

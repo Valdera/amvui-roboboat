@@ -1,6 +1,9 @@
 @import '../../sass/main.scss';
 
 .product-list {
+  animation: moveInBottom 2s;
+
+  width: 100%;
   margin-top: 5rem;
   display: flex;
   align-items: center;
@@ -28,25 +31,32 @@
 
       height: 1rem;
       bottom: 1rem;
-      width: 20rem;
+      width: 40%;
     }
   }
 
+  &__display {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
   &__item {
+    width: max-content;
     margin-top: 5rem;
     display: grid;
     grid-column-gap: 5rem;
     grid-row-gap: 5rem;
-    grid-template-columns: max-content max-content max-content;
+    grid-template-columns: 1fr 1fr 1fr;
     @include respond(tab-port) {
-      grid-template-columns: max-content max-content;
+      grid-template-columns: 1fr 1fr;
     }
     @include respond(phone) {
       margin-top: 2rem;
 
       grid-column-gap: 2rem;
       grid-row-gap: 3rem;
-      grid-template-columns: max-content max-content;
+      grid-template-columns: 1fr 1fr;
     }
   }
 }

@@ -30,6 +30,9 @@
       font-size: 1.6rem;
       margin-bottom: 3rem;
       width: 40rem;
+      @include respond(phone) {
+        margin-bottom: 1.5rem;
+      }
     }
   }
 

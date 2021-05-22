@@ -1,6 +1,8 @@
 @import '../../sass/main.scss';
 
 .member-card {
+  animation: opacityUp 1s;
+
   display: flex;
 
   &__picture {

@@ -14,7 +14,7 @@ const SectionElectrical = () => {
     <div className="member-section">
       <div className="member-section__title">
         <div className="member-section__title--icon">
-          <i class="fas fa-bolt"></i>
+          <i className="fas fa-bolt"></i>
         </div>
         <p>Electrical Division</p>
       </div>

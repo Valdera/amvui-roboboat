@@ -14,7 +14,7 @@ const SectionMechanic = () => {
     <div className="member-section">
       <div className="member-section__title">
         <div className="member-section__title--icon">
-          <i class="fas fa-tools"></i>{' '}
+          <i className="fas fa-tools"></i>{' '}
         </div>
         <p>Mechanical Division</p>
       </div>

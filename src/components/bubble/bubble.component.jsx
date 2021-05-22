@@ -5,7 +5,7 @@ const Bubble = ({ image, title, desc }) => {
   return (
     <div className="bubble">
       <div className="bubble__image">
-        <img src={image} alt="robot1" />
+        <img src={image} alt=" " />
       </div>
       <div className="bubble__text">
         <h3>{title}</h3>

@@ -69,10 +69,12 @@ const AchievementPage = () => {
         </h1>
         <Publication
           title="Kapal Autonomous MAKARA 09: Wahana Pemetaan Danau Otomatis"
+          link="https://scholar.ui.ac.id/en/publications/kapal-autonomous-makara-09-wahana-pemetaan-danau-otomatis"
           listNames={list}
         />
         <Publication
           title="Underwater ROV MAKARA X: Survei Bawah Laut Menggunakan Remotely Operated"
+          link="https://scholar.ui.ac.id/en/publications/underwater-rov-makara-x-survei-bawah-laut-menggunakan-remotely-op"
           listNames={list}
         />
       </div>

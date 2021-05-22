@@ -14,7 +14,7 @@ const SectionProgrammer = () => {
     <div className="member-section">
       <div className="member-section__title">
         <div className="member-section__title--icon">
-          <i class="fas fa-laptop-code"></i>{' '}
+          <i className="fas fa-laptop-code"></i>{' '}
         </div>
         <p>Programming Division</p>
       </div>

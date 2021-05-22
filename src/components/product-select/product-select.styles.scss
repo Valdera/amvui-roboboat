@@ -9,9 +9,17 @@
   align-items: center;
 
   & > h1 {
+    animation: moveInTop 0.7s;
+
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 1rem;
     font-size: 5.2rem;
     font-family: $font-display;
     color: $color-secondary;
+    @include respond(phone) {
+      font-size: 4.5rem;
+    }
   }
 
   & > p {
@@ -32,6 +40,8 @@
   }
 
   &__item {
+    animation: opacityUp 1s;
+
     cursor: pointer;
     box-shadow: 0 1rem 1rem rgba($color-black, 0.2);
     display: flex;

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './publication.styles.scss';
 
-const Publication = ({ listNames, title }) => {
+const Publication = ({ listNames, title, link }) => {
   return (
     <div className="publication">
       <h1>{title}</h1>
@@ -17,7 +17,9 @@ const Publication = ({ listNames, title }) => {
         <div className="publication__content">
           <span>Departement of Mechanical Engineering</span>
           <p>Research Output : Registered Patent</p>
-          <button>Link</button>
+          <a href={link}>
+            <button>Link</button>
+          </a>
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ const Carousel = ({ overview }) => {
     <div className="carousel">
       <Slider {...settings}>
         {overview.map((product) => (
-          <div className="carousel__product">
+          <div key={product.name} className="carousel__product">
             <Product key={product.name} product={product} />
           </div>
         ))}

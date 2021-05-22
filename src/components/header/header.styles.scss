@@ -25,6 +25,8 @@
   }
 
   &__left {
+    animation: moveInLeft 0.8s;
+
     & > * {
       margin-bottom: 3rem;
       @include respond(tab-port) {
@@ -47,6 +49,7 @@
       font-size: 1.5rem;
       & > span {
         font-weight: bold;
+        color: $color-secondary;
       }
     }
   }
@@ -60,6 +63,8 @@
   }
 
   &__right {
+    animation: moveInRight 0.8s;
+
     display: flex;
     position: relative;
     justify-content: right;

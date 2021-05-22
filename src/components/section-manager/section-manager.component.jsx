@@ -14,7 +14,7 @@ const SectionManager = () => {
     <div className="member-section">
       <div className="member-section__title">
         <div className="member-section__title--icon">
-          <i class="fas fa-handshake"></i>{' '}
+          <i className="fas fa-handshake"></i>{' '}
         </div>
         <p>Managerial Division</p>
       </div>

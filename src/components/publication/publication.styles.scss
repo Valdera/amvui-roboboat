@@ -41,21 +41,24 @@
       color: $color-primary;
     }
 
-    & > button {
-      font-family: inherit;
-      cursor: pointer;
+    & > a {
       margin-top: auto;
-      padding: 0.7rem 4rem;
-      width: max-content;
-      background-color: $color-primary;
-      border-radius: 10px;
-      color: $color-secondary;
-      border: none;
-      transition: all 0.3s;
 
-      &:hover,
-      &:active {
-        transform: scale(1.05);
+      & > button {
+        font-family: inherit;
+        cursor: pointer;
+        padding: 0.7rem 4rem;
+        width: max-content;
+        background-color: $color-primary;
+        border-radius: 10px;
+        color: $color-secondary;
+        border: none;
+        transition: all 0.3s;
+
+        &:hover,
+        &:active {
+          transform: scale(1.05);
+        }
       }
     }
   }

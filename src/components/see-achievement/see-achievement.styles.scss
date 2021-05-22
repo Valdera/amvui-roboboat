@@ -29,6 +29,10 @@
       font-size: 1.6rem;
       list-style-position: inside;
       margin-bottom: 3rem;
+
+      @include respond(phone) {
+        margin-bottom: 1.5rem;
+      }
     }
   }
 

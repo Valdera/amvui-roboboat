@@ -16,7 +16,7 @@ const SocialMediaButtons = () => {
     <div className="socialmedia">
       <div className="column">
         <a href="https://www.linkedin.com/company/amv-ui/">
-          <div class="socialmedia_linkedin">
+          <div className="socialmedia_linkedin">
             <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
           </div>
         </a>
@@ -24,7 +24,7 @@ const SocialMediaButtons = () => {
 
       <div className="column">
         <a href="https://www.instagram.com/amv.ui/">
-          <div class="socialmedia_instagram">
+          <div className="socialmedia_instagram">
             <FontAwesomeIcon icon={['fab', 'instagram']} />
           </div>
         </a>
@@ -32,7 +32,7 @@ const SocialMediaButtons = () => {
 
       <div className="column">
         <a href="https://twitter.com/">
-          <div class="socialmedia_twitter">
+          <div className="socialmedia_twitter">
             <FontAwesomeIcon icon={['fab', 'twitter']} />
           </div>
         </a>
@@ -40,7 +40,7 @@ const SocialMediaButtons = () => {
 
       <div className="column">
         <a href="https://www.facebook.com/AMVUI/">
-          <div class="socialmedia_facebook">
+          <div className="socialmedia_facebook">
             <FontAwesomeIcon icon={['fab', 'facebook']} />
           </div>
         </a>

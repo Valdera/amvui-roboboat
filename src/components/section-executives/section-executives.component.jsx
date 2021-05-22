@@ -14,7 +14,7 @@ const SectionExecutives = () => {
     <div className="member-section">
       <div className="member-section__title">
         <div className="member-section__title--icon">
-          <i class="fas fa-link"></i>{' '}
+          <i className="fas fa-link"></i>{' '}
         </div>
         <p>Executives</p>
       </div>

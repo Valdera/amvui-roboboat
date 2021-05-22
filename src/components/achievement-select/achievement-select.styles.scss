@@ -9,6 +9,8 @@
   align-items: center;
 
   & > h1 {
+    animation: moveInTop 0.7s;
+
     font-size: 5.2rem;
     font-family: $font-display;
     color: $color-secondary;
@@ -24,6 +26,8 @@
   }
 
   &__item {
+    animation: opacityUp 1s;
+
     display: flex;
     justify-content: center;
     align-items: center;
