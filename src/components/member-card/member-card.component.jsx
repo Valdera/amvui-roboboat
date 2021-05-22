@@ -11,12 +11,12 @@ const MemberCard = ({ member }) => {
       <div className="member-card__picture">
         {member.url ? (
           <div>
-            <img src={member.url} alt="member " />
+            <img src={member.url} alt="  " />
           </div>
         ) : (
           <div>
             {' '}
-            <img src={unknown} alt="member " />
+            <img src={unknown} alt=" " />
           </div>
         )}
         <h3>{member.role}</h3>

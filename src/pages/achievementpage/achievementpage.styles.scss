@@ -27,6 +27,9 @@
     z-index: -1;
     & > * {
       width: 100%;
+      @include respond(big-desktop) {
+        margin-top: -10rem;
+      }
       @include respond(tab-port) {
         width: 135%;
         margin-top: -0.5rem;

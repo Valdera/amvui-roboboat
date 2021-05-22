@@ -27,6 +27,9 @@
     z-index: -1;
     & > * {
       width: 100%;
+      @include respond(big-desktop) {
+        margin-top: -10rem;
+      }
       @include respond(tab-port) {
         width: 135%;
         margin-top: -0.5rem;
@@ -111,7 +114,7 @@
 
   &__text {
     margin-left: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     @include respond(phone) {
       margin-left: 0;
     }

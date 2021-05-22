@@ -12,8 +12,8 @@ const SeeMember = () => {
       <div className="see-member__content">
         <h1>Meet Our Members</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut.
+          Our team is divided into 4 divisions : Electrical, Mechanical,
+          Programming, and Managerial.
         </p>
         <ButtonRound type="yellow">See More</ButtonRound>
       </div>

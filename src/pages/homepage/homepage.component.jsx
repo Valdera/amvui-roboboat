@@ -19,7 +19,8 @@ const Homepage = () => {
       <div className="homepage__header">
         <Header />
       </div>
-      <div className="homepage__roboboat-video">
+
+      <div id="roboboat" className="homepage__roboboat-video">
         <RoboboatVideo />
       </div>
       <div className="homepage__see-achievement">

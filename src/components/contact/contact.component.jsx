@@ -18,24 +18,24 @@ const Contact = () => {
         <div className="contact__item">
           <i class="fas fa-phone"></i>
           <span>Phone Number :</span>
-          <p>14045</p>
+          <p>087</p>
         </div>
         <div className="contact__item">
           <i className="fas fa-envelope"></i>
           <span>E-mail :</span>
-          <p>amvui@gmail.com</p>
+          <p>roboboat.ui@gmail.com</p>
         </div>
 
         <span>Social Media : </span>
 
         <a href="https://www.instagram.com/amv.ui/" className="contact__social">
-          <i class="fab fa-instagram-square"></i>
+          <i className="fab fa-instagram-square"></i>
           <p>
             <span>Instagram </span>@amv.ui
           </p>
         </a>
         <a href="https://www.facebook.com/AMVUI/" className="contact__social">
-          <i class="fab fa-facebook-square"></i>{' '}
+          <i className="fab fa-facebook-square"></i>{' '}
           <p>
             <span>Facebook </span>@AMVUI
           </p>
@@ -43,7 +43,7 @@ const Contact = () => {
         <a
           href="https://www.linkedin.com/company/amv-ui/"
           className="contact__social">
-          <i class="fab fa-linkedin"></i>{' '}
+          <i className="fab fa-linkedin"></i>{' '}
           <p>
             <span>Linkedin </span>Autonomous Marine Vehicle Universitas
             Indonesia{' '}

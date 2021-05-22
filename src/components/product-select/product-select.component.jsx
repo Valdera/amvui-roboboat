@@ -4,8 +4,8 @@ import './product-select.styles.scss';
 const ProductSelect = () => {
   return (
     <div className="product-select">
-      <h1>Our Products</h1>
-      <p>Lorem ipsum sir dolor amet : </p>
+      <h1>Products Overview</h1>
+      <p>Our Product Categories: </p>
       <div className="product-select__list">
         <div className="product-select__item">
           <p>

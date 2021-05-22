@@ -1,6 +1,6 @@
 import React from 'react';
-import bos from '../../assets/bos.png';
 import './alumni.styles.scss';
+import { alumni } from '../../data/alumni';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Autoplay } from 'swiper/core';
@@ -29,27 +29,24 @@ const Alumni = () => {
           loop={true}
           pagination={true}
           className="alumni__swiper">
-          <SwiperSlide className="alumni__slide">
-            <div className="alumni-card">
-              <div className="alumni-card__photo">
-                <img src={bos} />
-                <h2>Hansel Matthew</h2>
-                <span>Team Leader AMV UI 2020/2021</span>
-              </div>
-              <div className="alumni-card__content">
-                <i class="fas fa-quote-right"></i>
-                <div className="alumni-card__content--text">
-                  <h2>Lorem Ipsum Sir Dolor Amet</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut. Lorem ipsum dolor sit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut. Lorem ipsum dolor sit.
-                  </p>
+          {alumni.map((alum) => (
+            <SwiperSlide className="alumni__slide">
+              <div className="alumni-card">
+                <div className="alumni-card__photo">
+                  <img src={alum.url} alt="alumni" />
+                  <h2>{alum.name}</h2>
+                  <span>{alum.role}</span>
+                </div>
+                <div className="alumni-card__content">
+                  <i className="fas fa-quote-right"></i>
+                  <div className="alumni-card__content--text">
+                    <h2>{alum.title}</h2>
+                    <p>{alum.text}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>

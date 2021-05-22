@@ -4,6 +4,7 @@ import Footer from '../../components/footer/footer.component';
 import ProductList from '../../components/product-list/product-list.component';
 import ProductSelect from '../../components/product-select/product-select.component';
 import './productpage.styles.scss';
+import { asv, rov, drone } from '../../data/robot';
 
 const ProductPage = () => {
   return (
@@ -16,9 +17,17 @@ const ProductPage = () => {
       </div>
 
       <div className="productpage__list">
-        <ProductList />
-        <ProductList />
-        <ProductList />
+        <ProductList
+          products={asv}
+          title="Automated Surface Vehicle (ASV)"
+          type="Surface Vehicle"
+        />
+        <ProductList
+          products={rov}
+          title="Autonomous Underwater Vehicle (AUV)"
+          type="Surface Vehicle"
+        />
+        <ProductList products={drone} title="Drone" type="drone" />
       </div>
 
       <div className="productpage__footer">

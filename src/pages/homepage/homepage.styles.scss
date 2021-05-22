@@ -15,6 +15,9 @@
 
     & > * {
       width: 100%;
+      @include respond(big-desktop) {
+        margin-top: -5rem;
+      }
 
       @include respond(phone) {
         width: 150%;
@@ -45,6 +48,9 @@
   &__roboboat-video {
     padding: 0 10rem;
     margin-bottom: 8rem;
+    @include respond(big-desktop) {
+      margin-top: 8rem;
+    }
     @include respond(tab-port) {
       padding: 0 0rem;
       margin: 0 10rem;

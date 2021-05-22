@@ -2,39 +2,39 @@ export const programmer = [
   {
     name: 'Pratama P. Rachmat',
     major: 'Physics 18',
-    role: 'Head of AI',
+    role: 'Head of Programming',
     linkedIn: '',
     instagram: '',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_rahmat.JPG?alt=media&token=fff28738-73be-42c7-be4d-c9ad52b0d3fe'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_rahmat.JPG?alt=media&token=34c8ab3e-43c9-4ede-951c-2e232ddfb08b'
   },
   {
     name: 'Muhammad Miftah Faridh',
     major: 'Computer Engineering 18',
-    role: 'Vice Head of AI',
+    role: 'Vice Head of Programming',
     linkedIn: 'https://www.linkedin.com/in/muhammadmiftahfaridh/',
     instagram: 'https://www.instagram.com/miftahfaridhh/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_muhammad_miftah_faridh.jpg?alt=media&token=fef87110-1550-4bd7-ad7f-e08bfe816a17'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_muhammad_miftah_faridh.jpg?alt=media&token=129089e8-44fc-43ca-bc9e-51f13025cb1f'
   },
   {
     name: 'Fauzan Valdera',
     major: 'Electrical Engineering 19',
-    role: 'Staff of AI',
+    role: 'Staff of Programming',
     linkedIn: 'https://www.linkedin.com/in/valdera/',
     instagram: 'https://www.instagram.com/fauzanvaldera/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_fauzan_valdera.png?alt=media&token=efbeea14-abae-436e-ab91-a9c99cfa3832'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_fauzan_valdera.png?alt=media&token=7c419da1-5235-4354-96e9-7bb1f4854c1f'
   },
   {
     name: 'Evans Hebert',
     major: 'Computer Engineering 19',
-    role: 'Staff of AI',
+    role: 'Staff of Programming',
     linkedIn: 'https://www.linkedin.com/in/evanzzer/',
     instagram: 'https://www.instagram.com/evanzzer7/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_evanzzer.JPG?alt=media&token=309bf0fb-4a43-4ca9-b312-7635a65b4e0d'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_evanzzer.JPG?alt=media&token=c47c3f32-25fc-42f1-b61d-29d92e789a2a'
   },
   {
     name: 'Prajna Prasetya',
     major: 'Computer Science 19',
-    role: 'Staff of AI',
+    role: 'Staff of Programming',
     linkedIn: '',
     instagram: '',
     url: ''
@@ -45,7 +45,7 @@ export const programmer = [
     role: 'On Job Training',
     linkedIn: 'https://www.linkedin.com/in/glenefelix/',
     instagram: 'https://www.instagram.com/felixsimamora20/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_glene_felix.jpg?alt=media&token=c730e02e-d4c5-45d5-860c-3da41d013f2f'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_glene_felix.jpg?alt=media&token=5f6c8418-8d48-4aac-babc-041041ddfafa'
   },
   {
     name: 'Rizky Rivaldi Ramadhan',
@@ -53,7 +53,7 @@ export const programmer = [
     role: 'On Job Training',
     linkedIn: 'https://www.linkedin.com/in/rizky-rivaldi-ramadhan-68895b206/',
     instagram: 'https://www.instagram.com/rizkyrivaldi60/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_rizky_rivaldi.JPG?alt=media&token=6b382f4b-89f0-4bd5-b6d5-e3dcaf180a68'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_rizky_rivaldi.JPG?alt=media&token=6cc8f0cb-0ac3-4f88-b29d-089b9e6f7899'
   },
   {
     name: 'Virdian Harun P',
@@ -61,7 +61,7 @@ export const programmer = [
     role: 'On Job Training',
     linkedIn: 'https://www.linkedin.com/in/virdian-harun-prayoga-b99aa3212/',
     instagram: 'https://www.instagram.com/virdianhrn/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_virdi.JPG?alt=media&token=de3bdc9e-da69-4537-8b04-b731f8b40b67'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_virdi.JPG?alt=media&token=d8c418bd-6517-46cc-b714-5927a4fd592a'
   }
 ];
 
@@ -72,7 +72,7 @@ export const electrical = [
     major: 'Electrical Engineering 18',
     linkedIn: 'https://www.linkedin.com/in/miftahul-khoir-shilahul-umam/',
     instagram: 'https://www.instagram.com/miftahul_ksu/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_miftahul_umam.JPG?alt=media&token=2386a424-db07-4cb7-a48c-a16ef1f99366'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_miftahul_umam.JPG?alt=media&token=2164e0b1-51bf-4602-a2aa-ddc7359d6667'
   },
   {
     name: 'M Akbar Attallah',
@@ -80,7 +80,7 @@ export const electrical = [
     major: 'Electrical Engineering 19',
     linkedIn: 'https://www.linkedin.com/in/m-akbar-attallah-9b03431a1/',
     instagram: 'https://www.instagram.com/akbarattallah/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_m_akbar_attalah.JPG?alt=media&token=84c2c0ad-ec04-4d05-8820-2726e81de863'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_m_akbar_attalah.JPG?alt=media&token=b26803f6-2af2-4475-9136-e4726e835160'
   },
   {
     name: 'Adli Aulia Fattah H',
@@ -88,7 +88,7 @@ export const electrical = [
     major: 'Electrical Engineering 19',
     linkedIn: 'https://www.linkedin.com/in/adli-a-4b2823ab/',
     instagram: 'https://www.instagram.com/aaftth_/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_adli_aulia_fattah.JPG?alt=media&token=94d16266-90e4-4cae-ad30-1896e7c1ecde'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_adli_aulia_fattah.JPG?alt=media&token=e395a702-e43e-4576-b7ee-ba8204330670'
   },
   {
     name: 'Muhammad Hurricane',
@@ -96,7 +96,7 @@ export const electrical = [
     major: 'Mechanical Engineering 19',
     linkedIn: 'https://www.linkedin.com/in/muhammad-hurricane-7b1845212/',
     instagram: 'https://www.instagram.com/hurr.canee/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_hurricane.jpg?alt=media&token=29ea6a99-02de-485c-a9bb-93be67506f52'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_hurricane.jpg?alt=media&token=fe89faea-5a53-4bdf-a330-1bdd09d9b513'
   },
   {
     name: 'Muhammad Gavin D',
@@ -104,7 +104,7 @@ export const electrical = [
     major: 'Electrical Engineering 20',
     linkedIn: 'https://www.linkedin.com/in/gantagavin/',
     instagram: 'https://www.instagram.com/gantagavin/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_gavin_dirgantara.png?alt=media&token=81dcfe11-18ef-4558-97b1-c5f54c8e7b9b'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_gavin_dirgantara.png?alt=media&token=b612829b-117f-4bad-a3a3-6d298265bb6d'
   },
   {
     name: 'Felix Yaman Kusuma',
@@ -112,7 +112,7 @@ export const electrical = [
     major: 'Electrical Engineering 20',
     linkedIn: 'https://www.linkedin.com/in/felix-yaman-kusuma-1720751b6/',
     instagram: 'https://www.instagram.com/felixyaman_/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_felix_yaman.jpg?alt=media&token=9f41125e-32fe-43f6-a17d-8489fb49f164'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_felix_yaman.jpg?alt=media&token=c8c65d50-ffeb-4f1d-bac4-acd512d21c3d'
   }
 ];
 
@@ -124,7 +124,7 @@ export const mechanical = [
     linkedIn:
       'https://www.linkedin.com/in/ricad-ragapati-prihandini-a882771a6/',
     instagram: 'https://www.instagram.com/agaragarrr/',
-    url: ''
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_raga.jpg?alt=media&token=a2bb50b2-eae1-443b-b5a6-79b49afb7ffe'
   },
   {
     name: 'Ones Sanjerico',
@@ -132,7 +132,7 @@ export const mechanical = [
     major: 'Electrical Engineering 18',
     linkedIn: 'https://www.linkedin.com/in/ones-sanjerico-0571591ba/',
     instagram: 'https://instagram.com/ones_sanjerico?utm_medium=copy_link',
-    url: ''
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_ones.jpg?alt=media&token=78973d5c-8a62-4cab-b054-31a835189e59'
   },
   {
     name: 'Christofer',
@@ -140,7 +140,7 @@ export const mechanical = [
     major: 'Naval Architecture 19',
     linkedIn: 'https://www.linkedin.com/in/christofer-7719971b6',
     instagram: 'https://www.instagram.com/ctofer84/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_christofer.jpg?alt=media&token=5d277023-7607-4303-99bd-74924302d5d4'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_christofer.jpg?alt=media&token=4b41f6fd-fc33-4b49-8b51-a1c48fecc683'
   },
   {
     name: 'Reynard Henderson',
@@ -148,7 +148,7 @@ export const mechanical = [
     major: 'Electrical Engineering 19',
     linkedIn: 'https://www.linkedin.com/in/reynardhenderson',
     instagram: 'https://www.instagram.com/rh147/',
-    url: ''
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_reynard.jpg?alt=media&token=6b953238-53ee-432c-8ce3-958581437ccb'
   },
   {
     name: 'Vincent Brendli K',
@@ -156,7 +156,7 @@ export const mechanical = [
     major: 'Naval Architecture 19',
     linkedIn: 'https://www.linkedin.com/in/vincent-brendli-kusuma-804aa5212/',
     instagram: 'https://www.instagram.com/vincentbrendly/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_vincent.jpeg?alt=media&token=12d84893-cc39-478e-ad86-ec2b81360560'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_vincent.jpeg?alt=media&token=dd3a707c-8f66-4781-9529-8fd33edc6232'
   },
   {
     name: 'Abu Bakar Aakif M',
@@ -164,7 +164,7 @@ export const mechanical = [
     major: 'Electrical Engineering 20',
     linkedIn: 'https://www.linkedin.com/in/abu-bakar-aakif-muhammad-9b43a7212/',
     instagram: 'https://www.instagram.com/aakif52/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_abu_bakar_akif.jpg?alt=media&token=3207b952-2735-410e-a41c-9265c612500a'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_abu_bakar_akif.jpg?alt=media&token=15d181d0-b28f-4e80-ac01-9ef747a91712'
   },
   {
     name: 'Gemilang Bagas R',
@@ -172,7 +172,7 @@ export const mechanical = [
     major: 'Computer Engineering 20',
     linkedIn: 'https://www.linkedin.com/in/gemilang-ramadhani-80b9a2204/',
     instagram: 'https://www.instagram.com/gemilvng/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_gemilang.jpg?alt=media&token=35d3e2f6-8f7b-4cef-8d32-816e673005de'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_gemilang.jpg?alt=media&token=aca7d7de-63d0-49a0-89fc-eda4c981d928'
   }
 ];
 
@@ -183,7 +183,7 @@ export const managerial = [
     major: 'Electrical Engineering 18',
     linkedIn: 'http://linkedin.com/in/angelita-cindi-a7332b197',
     instagram: 'https://www.instagram.com/angelitaviani',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_angelita_cindi.JPG?alt=media&token=02c1d7f5-0865-4319-bb74-0936d66ac83f'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_angelita_cindi.JPG?alt=media&token=b48f06db-0c31-418a-9f54-bd7f1c83be84'
   },
   {
     name: 'Ester Vinia',
@@ -191,7 +191,7 @@ export const managerial = [
     major: 'Biomedical Engineering 19',
     linkedIn: 'https://www.linkedin.com/in/esterviniaa0312/',
     instagram: 'https://instagram.com/esterviniaa',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_ester_vinia.JPG?alt=media&token=cfdbbb24-3af8-4f13-8b22-605f78c02775'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_ester_vinia.JPG?alt=media&token=5ffa5e5d-f9c9-4809-9f4d-242db16b28af'
   },
   {
     name: 'Valerie Olive S',
@@ -199,7 +199,7 @@ export const managerial = [
     major: 'Electrical Engineering 20',
     linkedIn: 'https://www.linkedin.com/in/valerieolives/',
     instagram: 'https://www.instagram.com/valerieolives/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_valerie.png?alt=media&token=fce68b25-f1d7-4681-ac02-fda57cce4737'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_valerie.png?alt=media&token=40e3a618-eaf3-47e7-b6c1-2bd2468576ff'
   }
 ];
 
@@ -210,7 +210,7 @@ export const executives = [
     major: 'Electrical Engineering 18',
     linkedIn: 'https://www.linkedin.com/in/hanselmatthew/',
     instagram: 'https://www.instagram.com/hnslmp/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_hansel.JPG?alt=media&token=5075a75f-3194-4ae5-9030-1ee248685802'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_hansel.JPG?alt=media&token=342678b0-6bc1-4894-b571-f55d9e201334'
   },
   {
     name: 'Nathaniel Faustine',
@@ -218,6 +218,6 @@ export const executives = [
     major: 'Computer Engineering 18',
     linkedIn: 'https://www.linkedin.com/in/nathaniel-faustine/',
     instagram: 'https://www.instagram.com/nthnfaustine/',
-    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_nathaniel.JPG?alt=media&token=6913222e-82ab-44ad-99f9-5087e98c845d'
+    url: 'https://firebasestorage.googleapis.com/v0/b/webamv-c51f6.appspot.com/o/member%2Fmember_nathaniel.JPG?alt=media&token=9005378a-6cba-4eb2-a9e5-4e3f1a997aa6'
   }
 ];

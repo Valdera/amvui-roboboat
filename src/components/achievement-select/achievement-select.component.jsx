@@ -6,7 +6,7 @@ const AchievementSelect = () => {
   return (
     <div className="achievement-select">
       <h1>Our achievements</h1>
-      <p>Lorem ipsum sir dolor amet : </p>
+      <p>List of our achievements : </p>
       <div className="achievement-select__list">
         <div className="achievement-select__item">
           <p>ASV International Achievement</p>

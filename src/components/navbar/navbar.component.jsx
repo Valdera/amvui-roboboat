@@ -27,24 +27,21 @@ class Navbar extends Component {
     }
   };
 
-  changePage = (link) => {
+  handleChange = (link) => {
     this.props.history.push(link);
+    window.scrollTo(0, 0);
   };
 
   render() {
     return (
       <div className={`navbar ${this.state.navbar ? 'active' : ''} `}>
-        <div
-          className="navbar__logo"
-          onClick={() => this.props.history.push('/')}>
+        <div className="navbar__logo" onClick={() => this.handleChange('/')}>
           <Logo />
         </div>
-        <p onClick={() => this.props.history.push('/members')}>Member</p>
-        <p onClick={() => this.props.history.push('/products')}>Robots</p>
-        <p onClick={() => this.props.history.push('/achievements')}>
-          Achievements
-        </p>
-        <p onClick={() => this.props.history.push('/contact')}>Contact</p>
+        <p onClick={() => this.handleChange('/members')}>Member</p>
+        <p onClick={() => this.handleChange('/products')}>Robots</p>
+        <p onClick={() => this.handleChange('/achievements')}>Achievements</p>
+        <p onClick={() => this.handleChange('/contact')}>Contact</p>
       </div>
     );
   }

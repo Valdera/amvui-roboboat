@@ -4,7 +4,7 @@ import Product from '../product/product.component';
 
 import './carousel.styles.scss';
 
-const Carousel = () => {
+const Carousel = ({ overview }) => {
   const settings = {
     className: 'center',
     infinite: true,
@@ -18,24 +18,11 @@ const Carousel = () => {
   return (
     <div className="carousel">
       <Slider {...settings}>
-        <div className="carousel__product">
-          <Product />
-        </div>
-        <div className="carousel__product">
-          <Product />
-        </div>
-        <div className="carousel__product">
-          <Product />
-        </div>
-        <div className="carousel__product">
-          <Product />
-        </div>
-        <div className="carousel__product">
-          <Product />
-        </div>
-        <div className="carousel__product">
-          <Product />
-        </div>
+        {overview.map((product) => (
+          <div className="carousel__product">
+            <Product key={product.name} product={product} />
+          </div>
+        ))}
       </Slider>
     </div>
   );

@@ -34,13 +34,15 @@
     }
 
     & > img {
+      background-color: $color-secondary;
+      width: 100%;
       height: 100%;
     }
   }
 
   &__heading {
-    font-family: $font-display;
-    font-size: 2rem;
+    font-family: $font-primary;
+    font-size: 1.7rem;
     font-weight: 300;
     text-transform: uppercase;
     text-align: right;

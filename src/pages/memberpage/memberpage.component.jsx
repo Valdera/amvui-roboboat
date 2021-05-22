@@ -21,11 +21,21 @@ const MemberPage = () => {
       </div>
 
       <div className="memberpage__member">
-        <SectionExecutives />
-        <SectionElectrical />
-        <SectionMechanic />
-        <SectionProgrammer />
-        <SectionManager />
+        <div id="executives">
+          <SectionExecutives />
+        </div>
+        <div id="electrical">
+          <SectionElectrical />
+        </div>
+        <div id="mecahnical">
+          <SectionMechanic />
+        </div>
+        <div id="programming">
+          <SectionProgrammer />
+        </div>
+        <div id="managerial">
+          <SectionManager />
+        </div>
       </div>
       <div className="memberpage__footer">
         <Footer />
